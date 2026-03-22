@@ -1,6 +1,4 @@
-cat > requirements.txt << 'EOF'
 fastapi
 uvicorn
 gitpython
 openai
-EOF
