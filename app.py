@@ -1,4 +1,3 @@
-cat > app.py << 'EOF'
 from fastapi import FastAPI
 from pydantic import BaseModel
 import os
@@ -62,4 +61,3 @@ def generate(repo: RepoRequest):
         return {"readme": readme}
     finally:
         shutil.rmtree(path)
-EOF
